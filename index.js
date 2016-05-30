@@ -8,8 +8,8 @@ var a, b, c, d, D, x1, x2;
     d= Math.sqrt(D);
     if (D >=0) 
     {
-    x1= (-b + d) / 2 * a;
-    x2= (-b - d) / 2 * a;
+    x1= (-b + d) / (2 * a);
+    x2= (-b - d) / (2 * a);
     alert(x1+" "+x2);
     }
     else
